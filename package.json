@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.ts",
   "scripts": {
-    "dev": "tsx src/server.ts"
+    "dev": "tsx src/server.ts",
+    "build": "tsup src/server.ts",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
